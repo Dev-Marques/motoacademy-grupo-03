@@ -1,9 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { CameraRecognize } from '../camera-recognize/camera-recognize.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
+  imports: [CameraRecognize],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

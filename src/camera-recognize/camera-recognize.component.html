@@ -1,0 +1,12 @@
+<div class="camera-container">
+  <h1>Camera</h1>
+  
+  <div class="video-container">
+    <div class="video-placeholder">
+      <video #video width="640" height="480" autoplay muted></video>
+      <canvas #canvas style="display: none;"></canvas>
+    </div>
+  </div>
+
+  <button class="photo-button" (click)="takePicture()">Tirar Foto</button>
+</div>
